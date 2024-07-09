@@ -214,6 +214,7 @@ button {
 
 .search-form__fieldset {
   border: none;
+  width: 29.81%;
 }
 
 .search-form__fieldset_city {
@@ -222,13 +223,15 @@ button {
   border: none;
   gap: 5px;
   width: 31.64%;
+  margin-top: 3px;
 }
 
 .search-form__checkbox-list {
   display: flex;
   align-items: center;
-  column-gap: 15px;
-  margin-top: 5px;
+  column-gap: 20px;
+  margin-top: 4px;
+  padding-bottom: 2px;
 }
 
 .search-form__fieldset-title {
@@ -282,7 +285,6 @@ button {
 .search-form__label {
   display: inline-flex;
   align-items: center;
-  column-gap: 5px;
   user-select: none;
   cursor: pointer;
 
