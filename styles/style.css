@@ -157,17 +157,13 @@ button {
     text-decoration-skip-ink: none;
   }
 
-  &:focus {
-    outline: none;
-  }
-
   &:focus-visible {
-    outline-offset: 0;
+    border: 1px solid var(--color-white);
   }
 }
 
 .content__card-link_current {
-  &:active{
+  &:active {
     background-color: var(--color-gray-100);
   }
 }
